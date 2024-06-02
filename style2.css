@@ -1,0 +1,94 @@
+*
+.graph {
+    width: 100px;
+    height: 100px;
+    background: rgb(166, 172, 255);
+    transition: width 3s;
+  }
+  
+  div:hover {
+    width: 670px;
+  }
+
+    body {
+        background-image: url("forest.jpg");
+        background-size: cover;
+        text-align: justify;
+      }
+
+      h1 {
+        color: rgb(255, 50, 50);
+        text-shadow: white;
+      }
+
+       p {
+        color: white;
+       }
+
+       h2 {
+        color: rgb(255, 50, 50);
+        text-shadow: white;
+       }
+
+       h3 {
+        color: white;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+       }
+        
+      img {
+        float: right;
+        width:40%;
+        height:40%;
+        margin-left:15px;
+      }
+
+      .container {
+        height: 200px;
+        width: 200px;
+      }
+
+      button {
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        border: 0.5rem;
+        color: black;
+        background: white;
+        cursor: pointer;
+        border-radius: 50px;
+        text-align: center;
+    }
+    
+    button:hover {
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    nav {
+      height: 80px;
+      display: flex;
+      font-weight: bold;
+      justify-content: center;
+      padding: 0rem calc((100vw - 1300px) / 2);
+  }
+  
+  .logo {
+      color: rgb(255, 255, 255);
+      font-size: 1.5rem;
+      font-weight: bold;
+      font-style: italic;
+      padding: 0 2rem;
+  }
+  
+  nav a {
+      text-decoration: none;
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+      padding: 0 1.5rem;
+  }
+  
+  nav a:hover {
+      color: black;
+  }
